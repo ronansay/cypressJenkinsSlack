@@ -4,7 +4,9 @@
   "description": "Cypress Jenkins Slack Integration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:chrome": "npx cypress run --headless --browser chrome",
+    "cypress:edge": "npx cypress run --headless --browser edge",
+    "test":"npx cypress run"
   },
   "author": "Rohan Deshmukh",
   "license": "ISC",
