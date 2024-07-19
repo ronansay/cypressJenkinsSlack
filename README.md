@@ -6,9 +6,8 @@ Cypress is a next generation front end testing tool built for the modern web. Th
 2. npm i - Install all the dependencies
 3. There are a lot dependencies that are not updated frequently in parallel with cypress. So while installing 4. if you are seeing conflicts use npm i --force.
 5. Run npx cypress run to execute the tests in CLI
-6. To create HTML reports execute first npm run test:cli and then npm run create:html:report
-7. Run npm test to execute the tests and generate mochawesome HTML report
-8. How to Integrate with JENKINS and also report notification in SLACK
+6. To create HTML reports execute first npm run test:cli
+7. Run - npm run cypress:chrome, npm run cypress:edge test to execute the tests in chrome and edge browser and generate mochawesome HTML report
 
 ### Jenkins-SLACK integration
 1.How to Integrate with JENKINS and also report notification in SLACK. Jenkins File added
