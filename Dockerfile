@@ -1,4 +1,6 @@
 #Base image taken from:https://github.com/cypress-io/cypress-docker-images
+#node-20.14.0-chrome-125.0.6422.141-1-ff-126.0.1-edge-125.0.2535.85-1
+#cypress/browsers:latest
 FROM cypress/browsers:node14.17.0-chrome91-ff89
 #Create the folder where our project will be stored
 RUN mkdir /my-cypress-project
